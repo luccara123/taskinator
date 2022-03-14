@@ -218,7 +218,7 @@ footer {
 
 @media screen and (max-width: 980px) {
   form .form-group {
-    flex: 1 100%;
+    flex: 1 100%; /*specify that they should share space evenly.*/
   }
 
   form .form-group button {
@@ -226,7 +226,7 @@ footer {
   }
 
   .task-list-wrapper {
-    flex-basis: 100%;
+    flex-basis: 100%; /*s set to 100%, which defines a new width that takes up all available space. Thus, the elements become stacked.*/
   }
 
 }
